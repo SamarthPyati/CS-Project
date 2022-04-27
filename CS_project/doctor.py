@@ -26,10 +26,7 @@ class Doctor:
 
 # Main 
 if __name__ == '__main__':
+   pass
 
-    Samarth = Doctor('Samarth', 'Cardiologist', 'MBBS', 15, ['z','g','h'])
-    natassha = Doctor('Natassha', 'Orthopeadist', 'MBBS', 9, ['x','y','z'])
-    print(natassha.doctor_info())
-    print(Samarth.doctor_info())
 
     
