@@ -1,3 +1,6 @@
+from pydoc import Doc
+
+
 class Doctor:
     def __init__(self, name, speciality, qualifications, experience, patients):
         self.name = name
@@ -26,7 +29,8 @@ class Doctor:
 
 # Main 
 if __name__ == '__main__':
-   pass
-
+    Samarth = Doctor('Samarth','Neurologist', ['MBBS', 'M.Sc', 'B.Bio'], 15, ['a','b','c','d'])
+    print(Samarth.doctor_info())
+    Samarth.list_patient()
 
     
