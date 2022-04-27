@@ -28,9 +28,4 @@ class Doctor:
         
 
 # Main 
-if __name__ == '__main__':
-    Samarth = Doctor('Samarth','Neurologist', ['MBBS', 'M.Sc', 'B.Bio'], 15, ['a','b','c','d'])
-    print(Samarth.doctor_info())
-    Samarth.list_patient()
 
-    
