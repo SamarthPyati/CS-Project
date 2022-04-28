@@ -1,4 +1,5 @@
-from pydoc import Doc
+
+from unicodedata import name
 
 
 class Doctor:
@@ -26,6 +27,9 @@ class Doctor:
         '''
         return info
         
-
 # Main 
+if __name__ == "__main__":
+    Samarth = Doctor('Samarth Pyati', 'Neurologist',['MBBS', 'B.Sc'], 15, [])
+    
+
 
