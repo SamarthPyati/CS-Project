@@ -1,7 +1,3 @@
-
-from unicodedata import name
-
-
 class Doctor:
     def __init__(self, name, speciality, qualifications, experience, patients):
         self.name = name
@@ -10,10 +6,6 @@ class Doctor:
         self.experience = experience
         self.qualifications = qualifications
     
-    def list_patient(self):
-        for i in enumerate(self.patients):
-            print(i)
-
     def doctor_info(self):
         d_name = self.name
         d_speciality = self.speciality
