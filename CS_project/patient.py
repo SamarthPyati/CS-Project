@@ -1,25 +1,25 @@
 class Patient:
     def __init__(
         self,
+        id, 
         name,
         age,
+        gender, 
         concern, 
         diagnostics,
         weight,
-        height, 
-        BMI, 
-        patient_file, 
+        height,  
         medications
         ):
 
+        self.id = id
         self.name = name 
         self.age = age
-        self.concern = concern
-        self.diagnostics = diagnostics
+        self.gender = gender
         self.weight = weight
         self.height = height 
-        self.bmi = BMI
-        self.file = patient_file
+        self.bmi = weight/(height^2)
+        self.concern = concern
+        self.diagnostics = diagnostics
         self.medications = medications
 
-    
